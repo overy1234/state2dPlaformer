@@ -1,13 +1,25 @@
+using System.Collections;
 using UnityEngine;
+
 
 public class Player : MonoBehaviour
 {
 
+    [Header("공격 디테일")]
+    public Vector2[] attackMovement;
+
+
+    public bool isBusy { get; private set; }
     [Header("이동 정보")]
     public float moveSpeed = 12f;
     public float jumpForce;
+
+    [Header("대시 정보")]
+    [SerializeField] private float dashCooldown;
+    private float dashUsageTimer;
     public float dashSpeed;
     public float dashDuration;
+    public float dashDir { get; private set; }
 
     [Header("충돌 정보")]
     [SerializeField] private Transform groundCheck;
@@ -36,6 +48,10 @@ public class Player : MonoBehaviour
     public PlayerAirState airState { get; private set; }
     public PlayerDashState dashState { get; private set; }
 
+    public PlayerWallSlideState wallSlide { get;  private set;}
+    public PlayerWallJumpState wallJump { get; private set; }
+    public PlayerPrimaryAttackState primaryAttack { get; private set; }
+
     #endregion
     
 
@@ -49,8 +65,11 @@ public class Player : MonoBehaviour
         moveState = new PlayerMoveState(this, stateMachine, "Move");
         jumpState = new PlayerJumpState(this, stateMachine, "Jump");
         airState  = new PlayerAirState(this, stateMachine, "Jump");
-        dashState = new PlayerDashState(this, stateMachine, "Dash"); 
+        dashState = new PlayerDashState(this, stateMachine, "Dash");
+        wallSlide = new PlayerWallSlideState(this, stateMachine, "WallSlide");
+        wallJump = new PlayerWallJumpState(this, stateMachine, "Jump");
 
+        primaryAttack = new PlayerPrimaryAttackState(this, stateMachine, "Attack");
 
     }
 
@@ -62,6 +81,10 @@ public class Player : MonoBehaviour
 
         // 게임 시작 시 초기 상태를 대기 상태(idleState)로 설정
         stateMachine.Initialize(idleState);
+
+
+      
+
     }
 
 
@@ -69,23 +92,68 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+     
         stateMachine.currentState.Update();
-
-             
-
-
-        
+        CheckForDashInput();
     }
+
+
+    public IEnumerator BusyFor(float _seconds)
+    {
+        isBusy = true;
+
+       
+        yield return new WaitForSeconds(_seconds);
+      
+        isBusy = false;
+    }
+
+
+
+
+
+
+    public void AnimationTrigger() => stateMachine.currentState.AnimationFinishTrigger();
+
+    private void CheckForDashInput()
+    {
+
+        //if (IsWallDetected())
+        //    return;
+
+        dashUsageTimer -= Time.deltaTime;
+
+
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && dashUsageTimer<0)
+        {
+
+            dashUsageTimer = dashCooldown;
+
+
+            dashDir = Input.GetAxisRaw("Horizontal");
+
+            if (dashDir == 0)
+                dashDir = facingDir;
+
+            stateMachine.ChangeState(dashState);
+        }
+           
+    }
+
+    #region 속력
+    public void ZeroVelocity() => rb.linearVelocity = new Vector2(0, 0);
 
     public void SetVelocity(float _xVelocity, float _yVelocity)
     {
         rb.linearVelocity = new Vector2(_xVelocity, _yVelocity);
         FlipController(_xVelocity);
     }
+    #endregion
 
-
+    #region 충돌
     public bool IsGroundDetected() => Physics2D.Raycast(groundCheck.position, Vector2.down, groundCheckDistance, whatIsGround);
-
+    public bool IsWallDetected() => Physics2D.Raycast(wallCheck.position, Vector2.right * facingDir, wallCheckDistance, whatIsGround);
 
 
     private void OnDrawGizmos()
@@ -93,8 +161,9 @@ public class Player : MonoBehaviour
         Gizmos.DrawLine(groundCheck.position, new Vector3(groundCheck.position.x, groundCheck.position.y - groundCheckDistance));
         Gizmos.DrawLine(wallCheck.position, new Vector3(wallCheck.position.x + wallCheckDistance, wallCheck.position.y));
     }
+    #endregion
 
-
+    #region 플립
     public void Flip()
     {
         facingDir = facingDir * -1;
@@ -111,5 +180,7 @@ public class Player : MonoBehaviour
             Flip();
 
     }
+
+    #endregion
 
 }

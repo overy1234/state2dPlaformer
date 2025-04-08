@@ -444,13 +444,17 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.40f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/PlayerAirState.cs"
+"Assets/Scripts/PlayerAnimationTrigger.cs"
 "Assets/Scripts/PlayerDashState.cs"
 "Assets/Scripts/PlayerGroundedState.cs"
 "Assets/Scripts/PlayerIdleState.cs"
 "Assets/Scripts/PlayerJumpState.cs"
 "Assets/Scripts/PlayerMoveState.cs"
+"Assets/Scripts/PlayerPrimaryAttackState.cs"
 "Assets/Scripts/PlayerState.cs"
 "Assets/Scripts/PlayerStateMachine.cs"
+"Assets/Scripts/PlayerWallJumpState.cs"
+"Assets/Scripts/PlayerWallSlideState.cs"
 -langversion:9.0
 /deterministic
 /optimize+
