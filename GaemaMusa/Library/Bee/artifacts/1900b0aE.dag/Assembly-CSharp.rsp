@@ -451,6 +451,7 @@
 "Assets/Scripts/EnemyState.cs"
 "Assets/Scripts/EnemyStateMachine.cs"
 "Assets/Scripts/Enemy_Skeleton.cs"
+"Assets/Scripts/Enemy_SkeletonAnimationTriggers.cs"
 "Assets/Scripts/Entity.cs"
 "Assets/Scripts/Player/Player.cs"
 "Assets/Scripts/Player/PlayerAirState.cs"
@@ -465,6 +466,9 @@
 "Assets/Scripts/Player/PlayerStateMachine.cs"
 "Assets/Scripts/Player/PlayerWallJumpState.cs"
 "Assets/Scripts/Player/PlayerWallSlideState.cs"
+"Assets/Scripts/SkeletonAttackState.cs"
+"Assets/Scripts/SkeletonBattleState.cs"
+"Assets/Scripts/SkeletonGroundedState.cs"
 "Assets/Scripts/SkeletonIdleState.cs"
 "Assets/Scripts/SkeletonMoveState.cs"
 -langversion:9.0
