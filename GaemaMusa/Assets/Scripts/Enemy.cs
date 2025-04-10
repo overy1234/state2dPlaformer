@@ -5,11 +5,15 @@ public class Enemy : Entity
     [SerializeField]protected LayerMask whatIsPlayer;
 
 
-    [Header("ÀÌµ¿ Á¤º¸")]
+    [Header("ì´ë™ ì •ë³´")]
     public float moveSpeed;
     public float idleTime;
+    public float battleTime;
 
-    [Header("°ø°İ Á¤º¸")]
+
+
+
+    [Header("ê³µê²© ì •ë³´")]
     public float attackDistance;
     public float attackCooldown;
     [HideInInspector]public float lastTimeAttacked;
