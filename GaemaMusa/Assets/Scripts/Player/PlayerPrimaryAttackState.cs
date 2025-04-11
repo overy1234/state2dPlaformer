@@ -16,6 +16,7 @@ public class PlayerPrimaryAttackState : PlayerState
     public override void Enter()
     {
         base.Enter();
+        xInput = 0;
 
         if (comboCounter > 2 || Time.time >= lastTimeAttacked + comboWindow)
             comboCounter = 0;
@@ -27,7 +28,11 @@ public class PlayerPrimaryAttackState : PlayerState
         float attackDir = player.facingDir;
 
         if (xInput != 0)
+        {
+           // Debug.Log(xInput);
             attackDir = xInput;
+        }
+           
      
 
         player.SetVelocity(player.attackMovement[comboCounter].x * attackDir, player.attackMovement[comboCounter].y);
