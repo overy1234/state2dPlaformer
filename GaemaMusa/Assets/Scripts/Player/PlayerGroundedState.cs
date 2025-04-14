@@ -20,13 +20,18 @@ public class PlayerGroundedState : PlayerState
     public override void Update()
     {
         base.Update();
-
-        if (Input.GetMouseButtonDown(1))
-            stateMachine.ChangeState(player.counterAttack);
-
-
         if (Input.GetKeyDown(KeyCode.Mouse0))
             stateMachine.ChangeState(player.primaryAttack);
+
+        if (Input.GetMouseButtonDown(1))
+            stateMachine.ChangeState(player.aimSword);
+
+          
+
+        if (Input.GetKeyDown(KeyCode.R))
+            stateMachine.ChangeState(player.counterAttack);
+
+       
 
 
         if (!player.IsGroundDetected())

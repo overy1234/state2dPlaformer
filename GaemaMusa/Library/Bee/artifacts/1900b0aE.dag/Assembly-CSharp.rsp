@@ -462,8 +462,10 @@
 "Assets/Scripts/Entity.cs"
 "Assets/Scripts/EntityFX.cs"
 "Assets/Scripts/Player/Player.cs"
+"Assets/Scripts/Player/PlayerAimSwordState.cs"
 "Assets/Scripts/Player/PlayerAirState.cs"
 "Assets/Scripts/Player/PlayerAnimationTrigger.cs"
+"Assets/Scripts/Player/PlayerCatchSwordState.cs"
 "Assets/Scripts/Player/PlayerCounterAttackState.cs"
 "Assets/Scripts/Player/PlayerDashState.cs"
 "Assets/Scripts/Player/PlayerGroundedState.cs"
@@ -475,6 +477,14 @@
 "Assets/Scripts/Player/PlayerStateMachine.cs"
 "Assets/Scripts/Player/PlayerWallJumpState.cs"
 "Assets/Scripts/Player/PlayerWallSlideState.cs"
+"Assets/Scripts/PlayerManager.cs"
+"Assets/Scripts/Skills/Clone_Skill.cs"
+"Assets/Scripts/Skills/Clone_Skill_Controller.cs"
+"Assets/Scripts/Skills/Dash_Skill.cs"
+"Assets/Scripts/Skills/Skill.cs"
+"Assets/Scripts/Skills/SkillManager.cs"
+"Assets/Scripts/Skills/Sword_Skill.cs"
+"Assets/Scripts/Skills/Sword_Skill_Controller.cs"
 -langversion:9.0
 /deterministic
 /optimize+

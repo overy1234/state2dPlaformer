@@ -15,15 +15,13 @@ public class Player : Entity
     public float moveSpeed = 12f;
     public float jumpForce;
 
-    [Header("대시 정보")]
-    [SerializeField] private float dashCooldown;
-    private float dashUsageTimer;
+    [Header("대시 정보")]    
     public float dashSpeed;
     public float dashDuration;
     public float dashDir { get; private set; }
 
   
-
+    public SkillManager skill { get; private set; }
 
 
     #region States
@@ -41,6 +39,9 @@ public class Player : Entity
     public PlayerWallJumpState wallJump { get; private set; }
     public PlayerPrimaryAttackState primaryAttack { get; private set; }
     public PlayerCounterAttackState counterAttack { get; private set; }
+
+    public PlayerAimSwordState aimSword { get; private set; }
+    public PlayerCatchSwordState catchSword { get; private set; }
 
     #endregion
     
@@ -63,12 +64,19 @@ public class Player : Entity
 
         primaryAttack = new PlayerPrimaryAttackState(this, stateMachine, "Attack");
         counterAttack = new PlayerCounterAttackState(this, stateMachine, "CounterAttack");
+
+        aimSword = new PlayerAimSwordState(this, stateMachine, "AimSword");
+        catchSword = new PlayerCatchSwordState(this, stateMachine, "CatchSword");
+
     }
 
     protected override void Start()
     {
 
         base.Start();
+
+
+        skill = SkillManager.instance;
 
         // 게임 시작 시 초기 상태를 대기 상태(idleState)로 설정
         stateMachine.Initialize(idleState);
@@ -109,19 +117,17 @@ public class Player : Entity
     private void CheckForDashInput()
     {
 
-        //if (IsWallDetected())
-        //    return;
+        if (IsWallDetected())
+            return;
 
-        dashUsageTimer -= Time.deltaTime;
+      
 
 
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && dashUsageTimer<0)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && SkillManager.instance.dash.CanUseSkill())
         {
 
-            dashUsageTimer = dashCooldown;
-
-
+           
             dashDir = Input.GetAxisRaw("Horizontal");
 
             if (dashDir == 0)
