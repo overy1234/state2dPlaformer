@@ -479,12 +479,12 @@
 "Assets/Scripts/Player/PlayerWallSlideState.cs"
 "Assets/Scripts/PlayerManager.cs"
 "Assets/Scripts/Skills/Clone_Skill.cs"
-"Assets/Scripts/Skills/Clone_Skill_Controller.cs"
 "Assets/Scripts/Skills/Dash_Skill.cs"
 "Assets/Scripts/Skills/Skill.cs"
 "Assets/Scripts/Skills/SkillManager.cs"
+"Assets/Scripts/Skills/Skill_Controller/Clone_Skill_Controller.cs"
+"Assets/Scripts/Skills/Skill_Controller/Sword_Skill_Controller.cs"
 "Assets/Scripts/Skills/Sword_Skill.cs"
-"Assets/Scripts/Skills/Sword_Skill_Controller.cs"
 -langversion:9.0
 /deterministic
 /optimize+
