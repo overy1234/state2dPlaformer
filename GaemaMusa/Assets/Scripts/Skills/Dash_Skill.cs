@@ -7,7 +7,7 @@ public class Dash_Skill : Skill
     {
         base.UseSkill();
 
-        Debug.Log("오버라이드 함수 UseSkill");
+        
     }
 
 }

@@ -57,7 +57,7 @@ public class Entity : MonoBehaviour
     {
         fx.StartCoroutine("FlashFX");
         StartCoroutine("HitKnockBack");
-        Debug.Log(gameObject.name + "데미지를 입혔다.");
+       
     }
 
    
