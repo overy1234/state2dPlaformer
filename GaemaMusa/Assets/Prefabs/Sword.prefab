@@ -220,3 +220,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 169214895e32f6643956157498279bd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  returnSpeed: 12
+  bounceSpeed: 20
+  isBouncing: 1
+  amountOfBounce: 4
+  enemyTarget: []
