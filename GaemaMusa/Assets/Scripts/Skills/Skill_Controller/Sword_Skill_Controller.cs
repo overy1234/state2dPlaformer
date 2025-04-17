@@ -14,10 +14,15 @@ public class Sword_Skill_Controller : MonoBehaviour
     private bool canRotate = true;
     private bool isReturning;
 
+    [Header("Pierce info")]
+    [SerializeField] private float pierceAmount;
+
+
+
     [Header("Bounce Info")]
     [SerializeField] private float bounceSpeed;
     private bool isBouncing ;
-    private int amountOfBounce;
+    private int bounceAmount;
     private List<Transform> enemyTarget;
     private int targetIndex;
 
@@ -36,17 +41,27 @@ public class Sword_Skill_Controller : MonoBehaviour
         rb.linearVelocity = _dir;
         rb.gravityScale = _gravityScale;
 
+        if(pierceAmount <= 0)
         anim.SetBool("Rotation", true);
     }
 
     public void SetupBounce(bool _isBouncing, int _amountOfBounces)
     {
         isBouncing = _isBouncing;
-        amountOfBounce = _amountOfBounces;
+        bounceAmount = _amountOfBounces;
 
 
         enemyTarget = new List<Transform>();
     }
+
+
+
+    public void SetupPierce(int _pierceAmount)
+    {
+        pierceAmount = _pierceAmount;
+    }
+
+
 
 
 
@@ -92,9 +107,9 @@ public class Sword_Skill_Controller : MonoBehaviour
             if (Vector2.Distance(transform.position, enemyTarget[targetIndex].position) < 0.1f)
             {
                 targetIndex++;
-                amountOfBounce--;
+                bounceAmount--;
 
-                if (amountOfBounce <= 0)
+                if (bounceAmount <= 0)
                 {
                     isBouncing = false;
                     isReturning = true;
@@ -112,6 +127,10 @@ public class Sword_Skill_Controller : MonoBehaviour
 
         if (isReturning)
             return;
+
+
+        collision.GetComponent<Enemy>()?.Damage();
+
 
 
         if (collision.GetComponent<Enemy>() != null)
@@ -133,7 +152,14 @@ public class Sword_Skill_Controller : MonoBehaviour
 
     private void StuckInto(Collider2D collision)
     {
-        
+
+        if (pierceAmount > 0 && collision.GetComponent<Enemy>() != null)
+        {
+            pierceAmount--;
+            return;
+        }
+
+
         canRotate = false;
         cd.enabled = false;
 
