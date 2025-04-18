@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cca58a01f8506b54392db0b6623dd8b8
+timeCreated: 1671435074
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242893
+  packageName: Samurai Vagabond
+  packageVersion: 1.2.0
+  assetPath: Assets/Samurai-Vagabond V1.2.0/Animation/Samurai/Jump/JumpAscending.anim
+  uploadId: 581078

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c65bc02f5d07b754d8706028181402ef, type: 3}
+  m_Name: MvData
+  m_EditorClassIdentifier: 
+  runMaxSpeed: 8
+  runAcceleration: 1
+  runAccelAmount: 6.25
+  runDecceleration: 1.5
+  runDeccelAmount: 9.375
+  accelInAir: 0.563
+  deccelInAir: 0.558
+  doConserveMomentum: 1
+  jumpPower: 8
+  dashPower: 20
+  dashingTime: 0.2
+  dashingCoolDown: 0.5
+  wallSlideSpeed: 0.3
+  wallJumpTime: 0.1
+  wallJumpingXPower: 7
+  wallJumpingYPower: 9
+  wallJumpTimeInSecond: 0.15
+  ladderUpNDownPower: 1

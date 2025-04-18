@@ -1,0 +1,462 @@
+fileFormatVersion: 2
+guid: 41aafef514084d342ab14b547b892aa9
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242893
+  packageName: Samurai Vagabond
+  packageVersion: 1.2.0
+  assetPath: Assets/Samurai-Vagabond V1.2.0/Sprite/Samurai/Hurt&Death/DeathWithDust.png
+  uploadId: 581078
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8500467134222116931
+    second: DeathWithDust_0
+  - first:
+      213: 4756011838742372382
+    second: DeathWithDust_1
+  - first:
+      213: -3394425671837467662
+    second: DeathWithDust_2
+  - first:
+      213: 3369296164712017446
+    second: DeathWithDust_3
+  - first:
+      213: 5124325770009888890
+    second: DeathWithDust_4
+  - first:
+      213: -9082219333957398932
+    second: DeathWithDust_5
+  - first:
+      213: 8271148498500112018
+    second: DeathWithDust_6
+  - first:
+      213: 4963826130527770761
+    second: DeathWithDust_7
+  - first:
+      213: 3870184817545202886
+    second: DeathWithDust_8
+  - first:
+      213: 112340881813392596
+    second: DeathWithDust_9
+  - first:
+      213: -5441135202676544007
+    second: DeathWithDust_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DeathWithDust_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 160
+        height: 102
+      alignment: 9
+      pivot: {x: 0.3623784, y: 0.4122011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348213832d9b7f570800000000000000
+      internalID: 8500467134222116931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathWithDust_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 23
+        width: 160
+        height: 102
+      alignment: 9
+      pivot: {x: 0.3623784, y: 0.4122011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10aac3a19fb00240800000000000000
+      internalID: 4756011838742372382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathWithDust_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 23
+        width: 160
+        height: 102
+      alignment: 9
+      pivot: {x: 0.3623784, y: 0.4122011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb39adf5d394e0d0800000000000000
+      internalID: -3394425671837467662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathWithDust_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 23
+        width: 160
+        height: 102
+      alignment: 9
+      pivot: {x: 0.3623784, y: 0.4122011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62eeeb0b20522ce20800000000000000
+      internalID: 3369296164712017446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathWithDust_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 23
+        width: 160
+        height: 102
+      alignment: 9
+      pivot: {x: 0.3623784, y: 0.4122011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78c1d253234d1740800000000000000
+      internalID: 5124325770009888890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathWithDust_5
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 23
+        width: 160
+        height: 102
+      alignment: 9
+      pivot: {x: 0.3623784, y: 0.4122011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ec84ba2a975f180800000000000000
+      internalID: -9082219333957398932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathWithDust_6
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 23
+        width: 160
+        height: 102
+      alignment: 9
+      pivot: {x: 0.3623784, y: 0.4122011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29eca99acb509c270800000000000000
+      internalID: 8271148498500112018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathWithDust_7
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 23
+        width: 160
+        height: 102
+      alignment: 9
+      pivot: {x: 0.3623784, y: 0.4122011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988d8e4f09d03e440800000000000000
+      internalID: 4963826130527770761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathWithDust_8
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 23
+        width: 160
+        height: 102
+      alignment: 9
+      pivot: {x: 0.3623784, y: 0.4122011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc44e02698a5b530800000000000000
+      internalID: 3870184817545202886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathWithDust_9
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 23
+        width: 160
+        height: 102
+      alignment: 9
+      pivot: {x: 0.3623784, y: 0.4122011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dccd32df6d1f8100800000000000000
+      internalID: 112340881813392596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathWithDust_10
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 23
+        width: 160
+        height: 102
+      alignment: 9
+      pivot: {x: 0.3623784, y: 0.4122011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd679d8c543d74b0800000000000000
+      internalID: -5441135202676544007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DeathWithDust_0: 8500467134222116931
+      DeathWithDust_1: 4756011838742372382
+      DeathWithDust_10: -5441135202676544007
+      DeathWithDust_2: -3394425671837467662
+      DeathWithDust_3: 3369296164712017446
+      DeathWithDust_4: 5124325770009888890
+      DeathWithDust_5: -9082219333957398932
+      DeathWithDust_6: 8271148498500112018
+      DeathWithDust_7: 4963826130527770761
+      DeathWithDust_8: 3870184817545202886
+      DeathWithDust_9: 112340881813392596
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

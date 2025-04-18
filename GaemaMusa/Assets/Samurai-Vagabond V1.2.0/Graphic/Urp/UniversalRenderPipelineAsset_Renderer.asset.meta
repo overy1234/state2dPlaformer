@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 042b7f0052f1e2e4f9d6039894d1a4f9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242893
+  packageName: Samurai Vagabond
+  packageVersion: 1.2.0
+  assetPath: Assets/Samurai-Vagabond V1.2.0/Graphic/Urp/UniversalRenderPipelineAsset_Renderer.asset
+  uploadId: 581078

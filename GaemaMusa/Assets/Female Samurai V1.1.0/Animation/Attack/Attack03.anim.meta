@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 099968fca8504f24cb35d50f46e4416d
+timeCreated: 1669176281
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240354
+  packageName: Female Samurai
+  packageVersion: 1.1.0
+  assetPath: Assets/Female Samurai V1.1.0/Animation/Attack/Attack03.anim
+  uploadId: 579786

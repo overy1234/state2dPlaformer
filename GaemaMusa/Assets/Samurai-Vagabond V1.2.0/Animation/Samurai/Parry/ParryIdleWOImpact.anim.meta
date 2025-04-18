@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 87c872fe06df84f4ba1fda96392363d6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242893
+  packageName: Samurai Vagabond
+  packageVersion: 1.2.0
+  assetPath: Assets/Samurai-Vagabond V1.2.0/Animation/Samurai/Parry/ParryIdleWOImpact.anim
+  uploadId: 581078

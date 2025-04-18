@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cab57e2673594e74393be43014e543ba
+timeCreated: 1671614938
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242893
+  packageName: Samurai Vagabond
+  packageVersion: 1.2.0
+  assetPath: Assets/Samurai-Vagabond V1.2.0/Animation/Samurai/WallSlide&Jump/WallJump.anim
+  uploadId: 581078

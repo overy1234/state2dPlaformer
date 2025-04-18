@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5f5f6b88c072fac4c9f352641e4bc79e
+timeCreated: 1670529086
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242893
+  packageName: Samurai Vagabond
+  packageVersion: 1.2.0
+  assetPath: Assets/Samurai-Vagabond V1.2.0/Prefabs/Samurai.prefab
+  uploadId: 581078

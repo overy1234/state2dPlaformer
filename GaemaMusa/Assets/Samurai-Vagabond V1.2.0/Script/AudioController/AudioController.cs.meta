@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 38e8e032a90c5fc48b372dcd6a7ea0c6
+timeCreated: 1671109626
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242893
+  packageName: Samurai Vagabond
+  packageVersion: 1.2.0
+  assetPath: Assets/Samurai-Vagabond V1.2.0/Script/AudioController/AudioController.cs
+  uploadId: 581078

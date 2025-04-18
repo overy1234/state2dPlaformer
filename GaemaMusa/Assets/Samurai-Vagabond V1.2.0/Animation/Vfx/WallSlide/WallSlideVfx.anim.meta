@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8db29917f5561c34e9ce5c05c8a4f91d
+timeCreated: 1671634236
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242893
+  packageName: Samurai Vagabond
+  packageVersion: 1.2.0
+  assetPath: Assets/Samurai-Vagabond V1.2.0/Animation/Vfx/WallSlide/WallSlideVfx.anim
+  uploadId: 581078

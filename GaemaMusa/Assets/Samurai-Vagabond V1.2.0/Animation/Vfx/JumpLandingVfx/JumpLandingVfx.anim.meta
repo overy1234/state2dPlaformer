@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b0d4eb2967cad314fb236a28409965b0
+timeCreated: 1671703715
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242893
+  packageName: Samurai Vagabond
+  packageVersion: 1.2.0
+  assetPath: Assets/Samurai-Vagabond V1.2.0/Animation/Vfx/JumpLandingVfx/JumpLandingVfx.anim
+  uploadId: 581078

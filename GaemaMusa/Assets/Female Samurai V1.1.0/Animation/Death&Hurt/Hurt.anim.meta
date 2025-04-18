@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9395e47b0bf73e64098057b05b710131
+timeCreated: 1669466966
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240354
+  packageName: Female Samurai
+  packageVersion: 1.1.0
+  assetPath: Assets/Female Samurai V1.1.0/Animation/Death&Hurt/Hurt.anim
+  uploadId: 579786

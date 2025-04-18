@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c65bc02f5d07b754d8706028181402ef
+timeCreated: 1670529313
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242893
+  packageName: Samurai Vagabond
+  packageVersion: 1.2.0
+  assetPath: Assets/Samurai-Vagabond V1.2.0/Script/PlayerMovement/MovementData.cs
+  uploadId: 581078

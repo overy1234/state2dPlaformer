@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: da05d9edd09f1c9439493caefaeddc89
+timeCreated: 1669182837
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240354
+  packageName: Female Samurai
+  packageVersion: 1.1.0
+  assetPath: Assets/Female Samurai V1.1.0/Animation/Attack/Transition02.anim
+  uploadId: 579786

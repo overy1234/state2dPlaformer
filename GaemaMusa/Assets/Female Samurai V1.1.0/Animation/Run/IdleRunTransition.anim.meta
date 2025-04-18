@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 624ab4c29db1c8d478361c52ba285645
+timeCreated: 1668768281
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240354
+  packageName: Female Samurai
+  packageVersion: 1.1.0
+  assetPath: Assets/Female Samurai V1.1.0/Animation/Run/IdleRunTransition.anim
+  uploadId: 579786

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3fd399754565a694e89a8dff1f8e0a0a
+timeCreated: 1671803510
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242893
+  packageName: Samurai Vagabond
+  packageVersion: 1.2.0
+  assetPath: Assets/Samurai-Vagabond V1.2.0/Animation/Samurai/Attack/Attack03.anim
+  uploadId: 581078

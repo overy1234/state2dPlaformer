@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6078e2a79700d8d4baefb811e5196d84
+timeCreated: 1669030638
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240354
+  packageName: Female Samurai
+  packageVersion: 1.1.0
+  assetPath: Assets/Female Samurai V1.1.0/Animation/WallSlide&jump/WallJump.anim
+  uploadId: 579786

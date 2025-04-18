@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 61aacfbcf5540b64983dc77680e4bc88
+timeCreated: 1671282091
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242893
+  packageName: Samurai Vagabond
+  packageVersion: 1.2.0
+  assetPath: Assets/Samurai-Vagabond V1.2.0/Animation/Vfx/Dash/DashVfxController.controller
+  uploadId: 581078

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b76ac67aea0051d40856a9a83a72a6b0
+timeCreated: 1668690747
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240354
+  packageName: Female Samurai
+  packageVersion: 1.1.0
+  assetPath: Assets/Female Samurai V1.1.0/Animation/Run/Run.anim
+  uploadId: 579786

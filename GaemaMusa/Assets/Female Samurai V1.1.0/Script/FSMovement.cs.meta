@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ac7b9e55b8221524b8ce89b9f2cb3098
+timeCreated: 1668691088
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240354
+  packageName: Female Samurai
+  packageVersion: 1.1.0
+  assetPath: Assets/Female Samurai V1.1.0/Script/FSMovement.cs
+  uploadId: 579786

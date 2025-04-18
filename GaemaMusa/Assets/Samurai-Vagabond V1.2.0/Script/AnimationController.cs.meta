@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 9bfa08aea10bfc641860e4a109592706
+timeCreated: 1670604472
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 242893
+  packageName: Samurai Vagabond
+  packageVersion: 1.2.0
+  assetPath: Assets/Samurai-Vagabond V1.2.0/Script/AnimationController.cs
+  uploadId: 581078

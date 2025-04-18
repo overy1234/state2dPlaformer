@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: d461a9815ca454141b2dccf00ab86dcc
+timeCreated: 1669176586
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240354
+  packageName: Female Samurai
+  packageVersion: 1.1.0
+  assetPath: Assets/Female Samurai V1.1.0/Script/AttackMethod.cs
+  uploadId: 579786

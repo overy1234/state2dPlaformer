@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a57ea8f3025e6194b914f0b9ef42c183
+timeCreated: 1668902630
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240354
+  packageName: Female Samurai
+  packageVersion: 1.1.0
+  assetPath: Assets/Female Samurai V1.1.0/Prefabs/Female Samurai.prefab
+  uploadId: 579786

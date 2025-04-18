@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b9d1b58513fc5f4459aced3fbc38a885
+timeCreated: 1668690739
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240354
+  packageName: Female Samurai
+  packageVersion: 1.1.0
+  assetPath: Assets/Female Samurai V1.1.0/Animation/Idle.anim
+  uploadId: 579786

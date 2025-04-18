@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 048a4dcec19432e4ba7542c3ac21ec29
+timeCreated: 1668940425
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240354
+  packageName: Female Samurai
+  packageVersion: 1.1.0
+  assetPath: Assets/Female Samurai V1.1.0/Animation/Jump/JumpDescendingLoop.anim
+  uploadId: 579786
