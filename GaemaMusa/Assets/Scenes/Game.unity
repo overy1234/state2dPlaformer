@@ -56201,8 +56201,11 @@ MonoBehaviour:
   keyCodeList: 7100000077000000650000007200000074000000
   maxSize: 15
   growSpeed: 1
+  shrinkSpeed: 3
+  canShrink: 0
   canGrow: 0
-  targets: []
+  amountOfAttacks: 4
+  cloneAttackCooldown: 0.3
 --- !u!212 &1774299569
 SpriteRenderer:
   m_ObjectHideFlags: 0

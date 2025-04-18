@@ -31,7 +31,7 @@ public class PlayerGroundedState : PlayerState
 
           
 
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.F))
             stateMachine.ChangeState(player.counterAttack);
 
        
