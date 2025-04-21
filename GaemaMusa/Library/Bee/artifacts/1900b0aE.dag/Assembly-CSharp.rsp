@@ -491,6 +491,7 @@
 "Assets/Scripts/Player/PlayerWallJumpState.cs"
 "Assets/Scripts/Player/PlayerWallSlideState.cs"
 "Assets/Scripts/PlayerManager.cs"
+"Assets/Scripts/Skills/Blackhole_Skill.cs"
 "Assets/Scripts/Skills/Clone_Skill.cs"
 "Assets/Scripts/Skills/Dash_Skill.cs"
 "Assets/Scripts/Skills/Skill.cs"

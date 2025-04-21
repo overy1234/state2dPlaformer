@@ -298,15 +298,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cooldown: 0
-  swordType: 2
+  swordType: 3
   bounceAmount: 3
   bounceGravity: 1
   bounceSpeed: 20
   pierceAmount: 2
   pierceGravity: 1
-  hitCooldown: 0.35
-  maxTravelDistance: 7
-  spinDuration: 2
+  hitCooldown: 0.1
+  maxTravelDistance: 10
+  spinDuration: 0.5
   spinGravity: 1
   swordPrefab: {fileID: 7197763828837588237, guid: 90779ae1287a3bc4e91bd0820cb9b4ed, type: 3}
   launchForce: {x: 25, y: 25}
@@ -56202,10 +56202,6 @@ MonoBehaviour:
   maxSize: 15
   growSpeed: 1
   shrinkSpeed: 3
-  canShrink: 0
-  canGrow: 0
-  amountOfAttacks: 4
-  cloneAttackCooldown: 0.3
 --- !u!212 &1774299569
 SpriteRenderer:
   m_ObjectHideFlags: 0
