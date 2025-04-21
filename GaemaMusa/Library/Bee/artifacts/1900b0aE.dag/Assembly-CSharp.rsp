@@ -478,6 +478,7 @@
 "Assets/Scripts/Player/PlayerAimSwordState.cs"
 "Assets/Scripts/Player/PlayerAirState.cs"
 "Assets/Scripts/Player/PlayerAnimationTrigger.cs"
+"Assets/Scripts/Player/PlayerBlackholeState.cs"
 "Assets/Scripts/Player/PlayerCatchSwordState.cs"
 "Assets/Scripts/Player/PlayerCounterAttackState.cs"
 "Assets/Scripts/Player/PlayerDashState.cs"
