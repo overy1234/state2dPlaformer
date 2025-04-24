@@ -88,7 +88,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 8bc268f8714149b46849520602be1782, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -196,8 +196,9 @@ GameObject:
   - component: {fileID: 6498579579047271146}
   - component: {fileID: 5609514079196986143}
   - component: {fileID: 225806741528797068}
-  - component: {fileID: 8223068898233202311}
   - component: {fileID: 8079513451088595226}
+  - component: {fileID: 3464744150156578799}
+  - component: {fileID: 3861411424927663285}
   m_Layer: 7
   m_Name: Enemy_Samurai
   m_TagString: Untagged
@@ -254,11 +255,11 @@ MonoBehaviour:
   stunDuration: 1
   stunDirection: {x: 10, y: 1}
   counterImage: {fileID: 6824850012082724776}
-  moveSpeed: 1.5
+  moveSpeed: 3
   idleTime: 2
   battleTime: 5
   attackDistance: 1.5
-  attackCooldown: 0.4
+  attackCooldown: 0.7
   lastTimeAttacked: 0
 --- !u!50 &225806741528797068
 Rigidbody2D:
@@ -287,52 +288,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!61 &8223068898233202311
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6783905646845279130}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: -0.071593285, y: -0.16291177}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.85681343, y: 2.115935}
-  m_EdgeRadius: 0
 --- !u!114 &8079513451088595226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -347,6 +302,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flashDuration: 0.15
   hitMat: {fileID: 2100000, guid: 8af51df7291cd6b4baf38600c2a961fd, type: 2}
+--- !u!114 &3464744150156578799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6783905646845279130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9962c6dab31264340b302ecd43aa4b28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dissolveTime: 0.75
+--- !u!114 &3861411424927663285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6783905646845279130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0b7ae4a020891b4ea20ab0738764e2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strength:
+    baseValue: 0
+    modifiers: 
+  damage:
+    baseValue: 0
+    modifiers: 
+  maxHealth:
+    baseValue: 0
+    modifiers: 
+  currentHealth: 0
 --- !u!1 &6824850012082724776
 GameObject:
   m_ObjectHideFlags: 0
