@@ -510,6 +510,7 @@
 "Assets/Scripts/Skills/Skill_Controller/Sword_Skill_Controller.cs"
 "Assets/Scripts/Skills/Sword_Skill.cs"
 "Assets/Scripts/Stat.cs"
+"Assets/Scripts/WaterCamera.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"

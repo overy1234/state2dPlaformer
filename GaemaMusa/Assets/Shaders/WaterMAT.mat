@@ -45,15 +45,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Second_Noise_Intensity: 1.539
-    - _Strength: 0.97
+    - _Second_Noise_Intensity: 1.281
+    - _Strength: 1.03
     m_Colors:
-    - _Noise_Color: {r: 0.28114986, g: 0.4123717, b: 0.735849, a: 0}
+    - _Noise_Color: {r: 0.43284976, g: 0.4946658, b: 0.6698113, a: 0}
     - _Noise_Direction: {r: 0.01, g: 0, b: 0, a: 0}
     - _Normal_Direction: {r: -0.01, g: 0, b: 0, a: 0}
     - _Offset: {r: 0, g: 0.05, b: 0, a: 0}
-    - _Second_Noise_Color: {r: 0.7075472, g: 0.8760108, b: 0.9433962, a: 0}
-    - _Second_Noise_Direction: {r: -0.01, g: -0.01, b: 0, a: 0}
+    - _Second_Noise_Color: {r: 0.6468049, g: 0.7561249, b: 0.8018868, a: 0}
+    - _Second_Noise_Direction: {r: -0.03, g: -0.02, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &6140076978706251743
