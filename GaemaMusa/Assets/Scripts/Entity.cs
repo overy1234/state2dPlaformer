@@ -37,6 +37,9 @@ public class Entity : MonoBehaviour
     protected bool facingRight = true;
 
 
+    public System.Action onFlipped; // 플립 시 호출되는 델리게이트
+
+
     protected virtual void Awake()
     {
 
@@ -107,6 +110,10 @@ public class Entity : MonoBehaviour
         facingDir = facingDir * -1;
         facingRight = !facingRight;
         transform.Rotate(0, 180, 0);
+
+       
+
+        onFlipped?.Invoke();  // null 체크를 포함한 안전한 호출 방식
     }
 
 

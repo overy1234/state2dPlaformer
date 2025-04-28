@@ -2,16 +2,18 @@ using UnityEngine;
 
 public class SkillManager : MonoBehaviour
 {
+    // 싱글톤 인스턴스
     public static SkillManager instance;
 
 
-    public Dash_Skill dash { get; private set; }
-    public Clone_Skill clone { get; private set; }
-    public Sword_Skill sword { get; private set; }
+    public Dash_Skill dash { get; private set; }      // 대시 스킬
+    public Clone_Skill clone { get; private set; }    // 분신 스킬
+    public Sword_Skill sword { get; private set; }    // 검 스킬
 
-    public Blackhole_Skill blackhole { get; private set; }
-    public Crystal_Skill crystal { get; private set; }
+    public Blackhole_Skill blackhole { get; private set; } // 블랙홀 스킬
+    public Crystal_Skill crystal { get; private set; }     // 크리스탈 스킬
 
+    // 게임 시작 시 싱글톤 설정
     private void Awake()
     {
         if (instance != null)
@@ -22,7 +24,7 @@ public class SkillManager : MonoBehaviour
 
     }
 
-
+    // 모든 스킬 컴포넌트 초기화
     private void Start()
     {
         dash = GetComponent<Dash_Skill>();

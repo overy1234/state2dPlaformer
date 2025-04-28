@@ -477,6 +477,7 @@
 "Assets/Scripts/EnemyStats.cs"
 "Assets/Scripts/Entity.cs"
 "Assets/Scripts/EntityFX.cs"
+"Assets/Scripts/HealthBar_UI.cs"
 "Assets/Scripts/Player/Player.cs"
 "Assets/Scripts/Player/PlayerAimSwordState.cs"
 "Assets/Scripts/Player/PlayerAirState.cs"
