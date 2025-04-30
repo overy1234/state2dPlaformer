@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerStats : CharacterStats
@@ -8,22 +10,18 @@ public class PlayerStats : CharacterStats
     {
         base.Start();
 
-        player = GetComponent<Player>();
+        player= GetComponent<Player>();
     }
 
     public override void TakeDamage(int _damage)
     {
         base.TakeDamage(_damage);
-
-        player.DamageEffect();
     }
 
     protected override void Die()
     {
         base.Die();
-
         player.Die();
+
     }
-
-
 }

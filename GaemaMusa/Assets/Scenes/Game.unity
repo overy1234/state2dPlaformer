@@ -661,8 +661,8 @@ MonoBehaviour:
   clonePrefab: {fileID: 445999242790190008, guid: 777675daa73b0c540a3cd5d18055e83e, type: 3}
   cloneDuration: 1.5
   canAttack: 1
-  createCloneOnDashStart: 1
-  createCloneOnDashOver: 0
+  creatCloneOnDashStart: 1
+  createCloneOnDashOver: 1
   canCreateCloneOnCounterAttack: 1
   canDuplicateClone: 1
   chanceToDuplicate: 50
@@ -741,7 +741,7 @@ MonoBehaviour:
   canUseMultiStacks: 1
   amountOfStacks: 3
   multiStackCooldown: 2.5
-  useTimeWindow: 2.5
+  useTimeWondow: 0
   crystalLeft:
   - {fileID: 6882506986526250288, guid: aa4fcc21195f848488990e423031be52, type: 3}
   - {fileID: 6882506986526250288, guid: aa4fcc21195f848488990e423031be52, type: 3}
@@ -60777,6 +60777,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flashDuration: 0.15
   hitMat: {fileID: 2100000, guid: 8af51df7291cd6b4baf38600c2a961fd, type: 2}
+  igniteColor:
+  - {r: 0.99215686, g: 0.3882353, b: 0.3882353, a: 0}
+  - {r: 0.972549, g: 0.6745098, b: 0.6745098, a: 0}
+  chillColor:
+  - {r: 0.60784316, g: 0.83137256, b: 1, a: 0}
+  - {r: 0.60784316, g: 0.83137256, b: 1, a: 0}
+  shockColor:
+  - {r: 1, g: 0.8901961, b: 0.38431373, a: 0}
+  - {r: 0.94509804, g: 0.8745098, b: 0.54901963, a: 0}
 --- !u!114 &1499091630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60829,11 +60838,13 @@ MonoBehaviour:
     baseValue: 4
     modifiers: 
   lightingDamage:
-    baseValue: 0
+    baseValue: 20
     modifiers: 
   isIgnited: 0
   isChilled: 0
   isShocked: 0
+  ailmentsDuration: 0.3
+  shockStrikePrefab: {fileID: 7161824736434324261, guid: f8f9960f9f05f8f4abdd833d4b1e1ad0, type: 3}
   currentHealth: 0
 --- !u!1 &1514654823
 GameObject:
@@ -62134,6 +62145,8 @@ MonoBehaviour:
   isIgnited: 0
   isChilled: 0
   isShocked: 0
+  ailmentsDuration: 0.3
+  shockStrikePrefab: {fileID: 7161824736434324261, guid: f8f9960f9f05f8f4abdd833d4b1e1ad0, type: 3}
   currentHealth: 0
 --- !u!114 &2624287949764908368
 MonoBehaviour:
@@ -62393,6 +62406,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flashDuration: 0.15
   hitMat: {fileID: 2100000, guid: 8af51df7291cd6b4baf38600c2a961fd, type: 2}
+  igniteColor:
+  - {r: 0.99215686, g: 0.3882353, b: 0.3882353, a: 0}
+  - {r: 0.972549, g: 0.6745098, b: 0.6745098, a: 0}
+  chillColor:
+  - {r: 0.60784316, g: 0.83137256, b: 1, a: 0}
+  - {r: 0.60784316, g: 0.83137256, b: 1, a: 0}
+  shockColor:
+  - {r: 1, g: 0.8901961, b: 0.38431373, a: 0}
+  - {r: 0.94509804, g: 0.8745098, b: 0.54901963, a: 0}
 --- !u!95 &7255992569156942820
 Animator:
   serializedVersion: 7

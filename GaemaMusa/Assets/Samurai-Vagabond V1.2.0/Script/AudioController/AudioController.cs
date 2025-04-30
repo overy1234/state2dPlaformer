@@ -28,7 +28,7 @@ namespace SamuraiVagabond
 		void Awake()
 		{ 
 			samuraiMV = GetComponent<MovementController>();
-			myAudio = FindObjectOfType<AudioManager>();
+			//myAudio = FindObjectOfType<AudioManager>();
 			myAnim = GetComponent<Animator>();
 		}
 

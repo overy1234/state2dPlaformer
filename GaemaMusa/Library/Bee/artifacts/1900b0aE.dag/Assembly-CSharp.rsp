@@ -508,6 +508,7 @@
 "Assets/Scripts/Skills/Skill_Controller/Blackhole_Skill_Controller.cs"
 "Assets/Scripts/Skills/Skill_Controller/Clone_Skill_Controller.cs"
 "Assets/Scripts/Skills/Skill_Controller/Crystal_Skill_Controller.cs"
+"Assets/Scripts/Skills/Skill_Controller/ShockStrike_Controller.cs"
 "Assets/Scripts/Skills/Skill_Controller/Sword_Skill_Controller.cs"
 "Assets/Scripts/Skills/Sword_Skill.cs"
 "Assets/Scripts/Stat.cs"
