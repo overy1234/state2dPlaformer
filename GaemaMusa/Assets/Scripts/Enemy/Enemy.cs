@@ -24,7 +24,7 @@ public class Enemy : Entity
     [HideInInspector] public float lastTimeAttacked;
 
     public EnemyStateMachine stateMachine { get; private set; }
-    public string lastAnimBoolName {  get; private set; }
+    public string lastAnimBoolName { get; private set; }
     protected override void Awake()
     {
         base.Awake();
@@ -74,10 +74,10 @@ public class Enemy : Entity
         }
     }
 
-    protected virtual IEnumerator FreezeTimerFor(float _seconds)
+    public virtual void FreezeTimeFor(float _duration) => StartCoroutine(FreezeTimerCoroutine(_duration));
+
+    protected virtual IEnumerator FreezeTimerCoroutine(float _seconds)
     {
-
-
         FreezeTime(true);
 
         yield return new WaitForSeconds(_seconds);

@@ -59,6 +59,6 @@ public class Enemy_Skeleton : Enemy
     {
         base.Die();
         stateMachine.ChangeState(deadState);
-
+        Destroy(gameObject,1.5f);
     }
 }

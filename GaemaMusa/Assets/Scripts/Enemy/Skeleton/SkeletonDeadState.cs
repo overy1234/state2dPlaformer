@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 
 public class SkeletonDeadState : EnemyState
@@ -23,6 +24,9 @@ public class SkeletonDeadState : EnemyState
         //enemy.cd.enabled = false;
 
         stateTimer = 0.1f;
+       
+
+
     }
 
     public override void Exit()

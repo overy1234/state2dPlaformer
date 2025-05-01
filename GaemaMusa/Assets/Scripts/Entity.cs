@@ -29,7 +29,7 @@ public class Entity : MonoBehaviour
     [SerializeField] protected float wallCheckDistance;
     [SerializeField] protected LayerMask whatIsGround;
 
-    public int facingDir { get; private set; } = 1;
+    public int facingDir { get;  set; } = 1;
     protected bool facingRight = true;
 
     public System.Action onFlipped;
