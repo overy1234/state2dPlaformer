@@ -10,6 +10,12 @@ public class PlayerDashState : PlayerState
     {
         base.Enter();
 
+        if(player.stats.fireDamage.GetValue() > 10)
+        {
+
+            player.skill.dash.UseSkill();
+        }
+
         player.skill.clone.CreateCloneOnDashStart();
 
         stateTimer = player.dashDuration;

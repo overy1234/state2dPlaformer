@@ -22,14 +22,14 @@ public class PlayerPrimaryAttackState : PlayerState
             comboCounter = 0;
 
         player.anim.SetInteger("ComboCounter", comboCounter);
-        //player.anim.speed = 3;
-
+        string soundString = "BasicAttack0" + (comboCounter +1);
+        SoundManager.Instance.play(soundString);
         
         float attackDir = player.facingDir;
 
         if (xInput != 0)
         {
-           // Debug.Log(xInput);
+           
             attackDir = xInput;
         }
            

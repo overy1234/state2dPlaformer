@@ -13,6 +13,11 @@ public class EnemyStats : CharacterStats
     [Range(0f, 1f)]
     [SerializeField] private float percantageModifier = .4f;
 
+    [Header("Drop Settings")]
+    [SerializeField] private int expValue;    // 이 적을 죽였을 때 얻는 경험치
+    [SerializeField] private int goldValue;   // 이 적을 죽였을 때 얻는 골드
+    [SerializeField] private int bossExpValue;  // 추가: 보스 경험치 값
+
     protected override void Start()
     {
         ApplyLevelModifiers();
@@ -62,8 +67,21 @@ public class EnemyStats : CharacterStats
     protected override void Die()
     {
         base.Die();
-        enemy.Die();
+        
+        // 플레이어에게 경험치와 골드 지급
+        PlayerStats playerStats = FindObjectOfType<PlayerStats>();
+        if(playerStats != null)
+        {
+            // 레벨에 따른 경험치와 골드 보너스 계산
+            int expBonus = Mathf.RoundToInt(expValue * (1 + (level - 1) * 0.1f));
+            int goldBonus = Mathf.RoundToInt(goldValue * (1 + (level - 1) * 0.1f));
+            int bossExpBonus = Mathf.RoundToInt(bossExpValue * (1 + (level - 1) * 0.1f));
+            
+            playerStats.GainExperienceAndGold(expBonus, goldBonus);
+            playerStats.GainBossExp(bossExpBonus);  // 보스 경험치 추가
+        }
 
+        enemy.Die();
         myDropSystem.GenerateDrop();
     }
 }

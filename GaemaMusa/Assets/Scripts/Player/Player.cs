@@ -27,7 +27,7 @@ public class Player : Entity
 
     [Header("Dash info")]
     [SerializeField] private float dashCooldown;
-    private float dashUsageTimer;
+    public float dashUsageTimer;
     public float dashSpeed;
     public float dashDuration;
     private float defaultDashSpeed;
@@ -37,6 +37,9 @@ public class Player : Entity
     public SkillManager skill { get; private set; }
     public GameObject sword { get; private set; }
 
+
+    //죽음
+    public bool PlayerDie { get; private set; } = false;
 
     #region States
     public PlayerStateMachine stateMachine { get; private set; }
@@ -167,7 +170,8 @@ public class Player : Entity
         if (IsWallDetected())
             return;
 
-     
+        if (PlayerDie)
+            return;
 
         dashUsageTimer -= Time.deltaTime;
 
@@ -202,7 +206,8 @@ public class Player : Entity
     public override void Die()
     {
         base.Die();
-
+        PlayerDie = true;
         stateMachine.ChangeState(deadState);
+       
     }
 }
